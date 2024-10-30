@@ -48,6 +48,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation ("com.microsoft.appcenter:appcenter-analytics:5.0.0")
-    implementation ("com.microsoft.appcenter:appcenter-crashes:5.0.0")
+    implementation ("com.microsoft.appcenter:appcenter-analytics:5.0.4")
+    implementation ("com.microsoft.appcenter:appcenter-crashes:5.0.4")
 }

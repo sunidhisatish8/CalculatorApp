@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         AppCenter.start(application, "3b484339-1589-48e6-a4e2-6da9fceeeed8",
             Analytics::class.java, Crashes::class.java)
 
         binding.btnAdd.setOnClickListener {
+            Crashes.generateTestCrash()
             val num1 = binding.number1.text.toString()
             val num2 = binding.number2.text.toString()
 
